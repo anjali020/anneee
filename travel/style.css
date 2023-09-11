@@ -1,0 +1,86 @@
+#hero{
+    height: 400px;
+    background-image:url("image/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#hero-contant{
+    width: 700px;
+    background-color: rgba(51,47,47,0.8);
+    box-shadow: 2px 4px 8px  rgb(69, 68, 68 );
+    text-align: center;
+    margin: 0 auto;
+    padding: 20 50px;
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+}
+#hero-contant h1{
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#hero-contant p{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+#hero-contant a{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    padding: 12px 26px;
+    font-weight: bold;
+    font-size: medium;
+    border-radius: 20px;
+    box-shadow: 2px 4px 8px rgb(69, 68, 68 );
+}
+#hero-contant a:hover{
+    background-color: orange;
+}
+
+#destinations{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.destination img{ 
+    height: 160px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(69, 68, 68 );
+    border-radius: 8px;
+    object-fit: cover;
+
+}
+.destination{
+    margin: 0 auto;
+    
+}
+.destination p{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    margin: 20px 0;
+}
+.destination strong{
+    color: midnightblue;
+}
+#highlight h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: darkblue;
+    font-size: 35px;
+    margin: auto  ;
+}
+#highlight{
+    margin: auto;
+    background:linear-gradient(45deg,rgb(211,280,200),rgb(74, 166, 231));
+    object-fit: cover;
+
+}
